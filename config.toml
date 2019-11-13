@@ -1,4 +1,4 @@
-baseURL = "https://kb.zzr.ru"
+baseURL = "http://kb.zzr.ru"
 languageCode = "ru-ru"
 title = "База знаний"
 theme = "book"
