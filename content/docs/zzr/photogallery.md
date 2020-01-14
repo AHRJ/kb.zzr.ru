@@ -2,6 +2,7 @@
 title: Фотогалерея
 weight: 5
 bookToc: false
+draft: True
 ---
 
 # Фотогалерея

@@ -1,6 +1,7 @@
 ---
 Title: Баннер
 weight: 3
+draft: True
 ---
 
 # Баннер
