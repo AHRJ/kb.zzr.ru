@@ -2,3 +2,7 @@ baseURL = "http://kb.zzr.ru"
 languageCode = "ru-ru"
 title = "База знаний"
 theme = "book"
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
