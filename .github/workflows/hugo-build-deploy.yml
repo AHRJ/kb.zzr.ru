@@ -23,13 +23,10 @@ jobs:
     - name: Build
       run: hugo --minify
     
-    - name: Deploy
-      uses: AEnterprise/rsync-deploy@v1.0
-      env:
-        DEPLOY_KEY: ${{ secrets.SERVER_SSH_KEY }}
-        ARGS: "-c -r --delete"
-        SERVER_PORT: ${{ secrets.SERVER_PORT }}
-        FOLDER: "public/"
-        SERVER_IP: ${{ secrets.SERVER_IP }}
-        USERNAME: ${{ secrets.USERNAME }}
-        SERVER_DESTINATION: ${{ secrets.SERVER_DESTINATION }}
+    - name: Deploy on GitHub Pages
+      uses: JamesIves/github-pages-deploy-action@3.7.1
+      with:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        BRANCH: gh-pages
+        FOLDER: public
+        CLEAN: true
