@@ -1,9 +1,0 @@
-baseURL = "http://kb.zzr.ru"
-languageCode = "ru-ru"
-title = "База знаний"
-theme = "book"
-enableGitInfo = true
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
