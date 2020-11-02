@@ -3,6 +3,7 @@ languageCode = "ru-ru"
 title = "База знаний"
 theme = "book"
 enableGitInfo = true
+enableRobotsTXT = true
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
