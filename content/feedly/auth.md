@@ -4,8 +4,6 @@ weight: 1
 bookToc: false
 ---
 
-# Авторизация на feedly.com
-
 1. Запросите данные для входа у администратора сайта
 1. В браузере зайдите на [https://feedly.com/](https://feedly.com/)
 1. В правом верхнем углу нажмите на кнопку Login. ![](../img/login_page.png)
