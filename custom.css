@@ -24,3 +24,6 @@ a:visited { color: #73bfb8 }
 .gdoc-hint.info { background: #d1d7e8; border-color: #324b99; color: black; }
 .gdoc-hint.warning { background: #fef5dc; border-color: #e4ba48; color: black; }
 .gdoc-hint.danger { background: #fae1db; border-color: #cf5f46; color: black; }
+
+/* img */
+.gdoc-markdown img {display: block; box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px; margin: 1em 0 1em 0}
