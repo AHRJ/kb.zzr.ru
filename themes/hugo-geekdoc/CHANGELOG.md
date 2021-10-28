@@ -1,2 +1,0 @@
-- BUGFIX
-  - fix flexsearch loading
