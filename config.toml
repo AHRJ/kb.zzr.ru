@@ -17,7 +17,10 @@ disablePathToLower = true
     startLevel = 1
     endLevel = 9
 
-enableRobotsTXT = true
-geekdocLogo = "logo.png"
-geekdocRepo = "https://github.com/AHRJ/kb.zzr.ru.git"
-geekdocSearch = false
+[params]
+  enableRobotsTXT = true
+  geekdocLogo = "logo.png"
+  geekdocRepo = "https://github.com/AHRJ/kb.zzr.ru.git"
+  geekdocSearch = true
+  geekdocSearchShowParent = true
+  geekdocCollapseAllSections = true
